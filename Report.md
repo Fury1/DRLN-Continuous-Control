@@ -25,7 +25,8 @@ an adaptation of DDPG used in the OpenAI Gym's Pendulum environment. See below f
 |Linear|200 x 4|
 |Output w/ tanh activation|action space (vector length 4)|
 
-Output
+Output:
+
 A *tanh* activation was used to keep values within environment action space of -1 to 1.
 Output of this network is the best believed action for any given state, even for continuous action spaces like reacher. This is a deterministic policy.
 
@@ -41,7 +42,8 @@ Output of this network is the best believed action for any given state, even for
 |Linear|200 x 1|
 |Ouput|1|
 
-Output
+Output:
+
 *No* activation was used on the output of this layer.
 
 *Note the concatenation was performed based on the original paper linked above to add the action
