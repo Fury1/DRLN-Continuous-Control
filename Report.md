@@ -75,9 +75,9 @@ As shown the following plot demonstrates that the environment was solved in 200 
 
 Training progress per episode:
 
-![Training Plot](training-plot.png)
+![Training Plot](Images/training-plot.png)
 
-![Environment Solved](environment-solved-status.png)
+![Environment Solved](Images/environment-solved-status.png)
 
 ---
 
